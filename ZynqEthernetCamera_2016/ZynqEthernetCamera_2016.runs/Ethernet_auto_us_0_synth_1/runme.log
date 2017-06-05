@@ -1,0 +1,89 @@
+
+*** Running vivado
+    with args -log Ethernet_auto_us_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Ethernet_auto_us_0.tcl
+
+
+****** Vivado v2016.3 (64-bit)
+  **** SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+  **** IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source Ethernet_auto_us_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:13 ; elapsed = 00:00:22 . Memory (MB): peak = 383.086 ; gain = 171.613
+INFO: [Synth 8-638] synthesizing module 'Ethernet_auto_us_0' [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ip/Ethernet_auto_us_0/synth/Ethernet_auto_us_0.v:58]
+INFO: [Synth 8-638] synthesizing module 'axi_dwidth_converter_v2_1_10_top' [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ipshared/4a86/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:14452]
+INFO: [Synth 8-638] synthesizing module 'axi_dwidth_converter_v2_1_10_axi_upsizer' [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ipshared/4a86/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:7037]
+INFO: [Synth 8-638] synthesizing module 'axi_dwidth_converter_v2_1_10_w_upsizer' [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ipshared/4a86/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:5562]
+INFO: [Synth 8-256] done synthesizing module 'axi_dwidth_converter_v2_1_10_w_upsizer' (1#1) [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ipshared/4a86/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:5562]
+INFO: [Synth 8-638] synthesizing module 'axi_dwidth_converter_v2_1_10_a_upsizer' [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ipshared/4a86/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:3603]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_command_fifo' [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ipshared/7ee0/hdl/generic_baseblocks_v2_1_vl_rfs.v:655]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_command_fifo' (2#1) [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ipshared/7ee0/hdl/generic_baseblocks_v2_1_vl_rfs.v:655]
+INFO: [Synth 8-256] done synthesizing module 'axi_dwidth_converter_v2_1_10_a_upsizer' (3#1) [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ipshared/4a86/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:3603]
+INFO: [Synth 8-638] synthesizing module 'axi_dwidth_converter_v2_1_10_r_upsizer' [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ipshared/4a86/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:4652]
+INFO: [Synth 8-256] done synthesizing module 'axi_dwidth_converter_v2_1_10_r_upsizer' (4#1) [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ipshared/4a86/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:4652]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_10_axi_register_slice' [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:791]
+INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_0_axi2vector' [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:60]
+INFO: [Synth 8-256] done synthesizing module 'axi_infrastructure_v1_1_0_axi2vector' (5#1) [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:60]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_10_axic_register_slice' [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_10_axic_register_slice' (6#1) [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_10_axic_register_slice__parameterized0' [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_10_axic_register_slice__parameterized0' (6#1) [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_10_axic_register_slice__parameterized1' [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_10_axic_register_slice__parameterized1' (6#1) [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_10_axic_register_slice__parameterized2' [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_10_axic_register_slice__parameterized2' (6#1) [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_0_vector2axi' [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:474]
+INFO: [Synth 8-256] done synthesizing module 'axi_infrastructure_v1_1_0_vector2axi' (7#1) [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:474]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_10_axi_register_slice' (8#1) [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:791]
+INFO: [Synth 8-638] synthesizing module 'axi_dwidth_converter_v2_1_10_a_upsizer__parameterized0' [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ipshared/4a86/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:3603]
+INFO: [Synth 8-256] done synthesizing module 'axi_dwidth_converter_v2_1_10_a_upsizer__parameterized0' (8#1) [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ipshared/4a86/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:3603]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_10_axi_register_slice__parameterized0' [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:791]
+INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_0_axi2vector__parameterized0' [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:60]
+INFO: [Synth 8-256] done synthesizing module 'axi_infrastructure_v1_1_0_axi2vector__parameterized0' (8#1) [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:60]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_10_axic_register_slice__parameterized3' [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_10_axic_register_slice__parameterized3' (8#1) [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_10_axic_register_slice__parameterized4' [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_10_axic_register_slice__parameterized4' (8#1) [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_10_axic_register_slice__parameterized5' [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_10_axic_register_slice__parameterized5' (8#1) [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_0_vector2axi__parameterized0' [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:474]
+INFO: [Synth 8-256] done synthesizing module 'axi_infrastructure_v1_1_0_vector2axi__parameterized0' (8#1) [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:474]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_10_axi_register_slice__parameterized0' (8#1) [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:791]
+INFO: [Synth 8-256] done synthesizing module 'axi_dwidth_converter_v2_1_10_axi_upsizer' (9#1) [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ipshared/4a86/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:7037]
+INFO: [Synth 8-256] done synthesizing module 'axi_dwidth_converter_v2_1_10_top' (10#1) [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ipshared/4a86/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:14452]
+INFO: [Synth 8-256] done synthesizing module 'Ethernet_auto_us_0' (11#1) [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ip/Ethernet_auto_us_0/synth/Ethernet_auto_us_0.v:58]
+Finished RTL Elaboration : Time (s): cpu = 00:01:22 ; elapsed = 00:01:32 . Memory (MB): peak = 502.293 ; gain = 290.820
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:01:22 ; elapsed = 00:01:33 . Memory (MB): peak = 502.293 ; gain = 290.820
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.295 . Memory (MB): peak = 728.754 ; gain = 0.105
+Finished Constraint Validation : Time (s): cpu = 00:01:32 ; elapsed = 00:01:59 . Memory (MB): peak = 728.754 ; gain = 517.281
+Finished Loading Part and Timing Information : Time (s): cpu = 00:01:32 ; elapsed = 00:01:59 . Memory (MB): peak = 728.754 ; gain = 517.281
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:01:32 ; elapsed = 00:01:59 . Memory (MB): peak = 728.754 ; gain = 517.281
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:33 ; elapsed = 00:02:00 . Memory (MB): peak = 728.754 ; gain = 517.281
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:40 ; elapsed = 00:02:07 . Memory (MB): peak = 728.754 ; gain = 517.281
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:51 ; elapsed = 00:02:25 . Memory (MB): peak = 728.754 ; gain = 517.281
+Finished Timing Optimization : Time (s): cpu = 00:01:52 ; elapsed = 00:02:26 . Memory (MB): peak = 730.066 ; gain = 518.594
+Finished Technology Mapping : Time (s): cpu = 00:01:52 ; elapsed = 00:02:27 . Memory (MB): peak = 742.789 ; gain = 531.316
+Finished IO Insertion : Time (s): cpu = 00:01:53 ; elapsed = 00:02:28 . Memory (MB): peak = 742.789 ; gain = 531.316
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:53 ; elapsed = 00:02:28 . Memory (MB): peak = 742.789 ; gain = 531.316
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:53 ; elapsed = 00:02:28 . Memory (MB): peak = 742.789 ; gain = 531.316
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:53 ; elapsed = 00:02:28 . Memory (MB): peak = 742.789 ; gain = 531.316
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:53 ; elapsed = 00:02:28 . Memory (MB): peak = 742.789 ; gain = 531.316
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:53 ; elapsed = 00:02:28 . Memory (MB): peak = 742.789 ; gain = 531.316
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |LUT1    |     6|
+|2     |LUT2    |    33|
+|3     |LUT3    |   109|
+|4     |LUT4    |    40|
+|5     |LUT5    |   134|
+|6     |LUT6    |   213|
+|7     |SRLC32E |    56|
+|8     |FDRE    |   581|
+|9     |FDSE    |     4|
++------+--------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:53 ; elapsed = 00:02:28 . Memory (MB): peak = 742.789 ; gain = 531.316
+synth_design: Time (s): cpu = 00:01:50 ; elapsed = 00:02:22 . Memory (MB): peak = 746.531 ; gain = 473.996

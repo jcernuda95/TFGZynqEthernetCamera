@@ -1,0 +1,79 @@
+
+*** Running vivado
+    with args -log Ethernet_xbar_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Ethernet_xbar_0.tcl
+
+
+****** Vivado v2016.3 (64-bit)
+  **** SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+  **** IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source Ethernet_xbar_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:14 ; elapsed = 00:00:19 . Memory (MB): peak = 387.543 ; gain = 176.031
+INFO: [Synth 8-638] synthesizing module 'Ethernet_xbar_0' [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ip/Ethernet_xbar_0/synth/Ethernet_xbar_0.v:59]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_11_axi_crossbar' [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ipshared/d552/hdl/axi_crossbar_v2_1_vl_rfs.v:4882]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_11_crossbar_sasd' [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ipshared/d552/hdl/axi_crossbar_v2_1_vl_rfs.v:1240]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_11_addr_decoder' [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ipshared/d552/hdl/axi_crossbar_v2_1_vl_rfs.v:794]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_comparator_static' [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ipshared/7ee0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_carry_and' [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ipshared/7ee0/hdl/generic_baseblocks_v2_1_vl_rfs.v:62]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_carry_and' (1#1) [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ipshared/7ee0/hdl/generic_baseblocks_v2_1_vl_rfs.v:62]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_comparator_static' (2#1) [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ipshared/7ee0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized0' [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ipshared/7ee0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized0' (2#1) [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ipshared/7ee0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_11_addr_decoder' (3#1) [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ipshared/d552/hdl/axi_crossbar_v2_1_vl_rfs.v:794]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_11_decerr_slave' [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ipshared/d552/hdl/axi_crossbar_v2_1_vl_rfs.v:3500]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_11_decerr_slave' (4#1) [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ipshared/d552/hdl/axi_crossbar_v2_1_vl_rfs.v:3500]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_11_addr_arbiter_sasd' [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ipshared/d552/hdl/axi_crossbar_v2_1_vl_rfs.v:65]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_11_addr_arbiter_sasd' (5#1) [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ipshared/d552/hdl/axi_crossbar_v2_1_vl_rfs.v:65]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_11_splitter' [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ipshared/d552/hdl/axi_crossbar_v2_1_vl_rfs.v:4459]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_11_splitter' (6#1) [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ipshared/d552/hdl/axi_crossbar_v2_1_vl_rfs.v:4459]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_11_splitter__parameterized0' [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ipshared/d552/hdl/axi_crossbar_v2_1_vl_rfs.v:4459]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_11_splitter__parameterized0' (6#1) [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ipshared/d552/hdl/axi_crossbar_v2_1_vl_rfs.v:4459]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_mux_enc' [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ipshared/7ee0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_mux_enc' (7#1) [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ipshared/7ee0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized0' [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ipshared/7ee0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized0' (7#1) [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ipshared/7ee0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized1' [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ipshared/7ee0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized1' (7#1) [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ipshared/7ee0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized2' [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ipshared/7ee0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized2' (7#1) [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ipshared/7ee0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_10_axic_register_slice' [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_10_axic_register_slice' (8#1) [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized3' [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ipshared/7ee0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized3' (8#1) [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ipshared/7ee0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_11_crossbar_sasd' (9#1) [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ipshared/d552/hdl/axi_crossbar_v2_1_vl_rfs.v:1240]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_11_axi_crossbar' (10#1) [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ipshared/d552/hdl/axi_crossbar_v2_1_vl_rfs.v:4882]
+INFO: [Synth 8-256] done synthesizing module 'Ethernet_xbar_0' (11#1) [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ip/Ethernet_xbar_0/synth/Ethernet_xbar_0.v:59]
+Finished RTL Elaboration : Time (s): cpu = 00:00:20 ; elapsed = 00:00:25 . Memory (MB): peak = 503.961 ; gain = 292.449
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:20 ; elapsed = 00:00:25 . Memory (MB): peak = 503.961 ; gain = 292.449
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.063 . Memory (MB): peak = 725.242 ; gain = 0.000
+Finished Constraint Validation : Time (s): cpu = 00:00:29 ; elapsed = 00:00:39 . Memory (MB): peak = 725.242 ; gain = 513.730
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:29 ; elapsed = 00:00:39 . Memory (MB): peak = 725.242 ; gain = 513.730
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:29 ; elapsed = 00:00:39 . Memory (MB): peak = 725.242 ; gain = 513.730
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:30 ; elapsed = 00:00:39 . Memory (MB): peak = 725.242 ; gain = 513.730
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:30 ; elapsed = 00:00:40 . Memory (MB): peak = 725.242 ; gain = 513.730
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:42 ; elapsed = 00:00:55 . Memory (MB): peak = 725.242 ; gain = 513.730
+Finished Timing Optimization : Time (s): cpu = 00:00:42 ; elapsed = 00:00:55 . Memory (MB): peak = 725.242 ; gain = 513.730
+Finished Technology Mapping : Time (s): cpu = 00:00:42 ; elapsed = 00:00:55 . Memory (MB): peak = 725.242 ; gain = 513.730
+Finished IO Insertion : Time (s): cpu = 00:00:43 ; elapsed = 00:00:56 . Memory (MB): peak = 725.242 ; gain = 513.730
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:43 ; elapsed = 00:00:56 . Memory (MB): peak = 725.242 ; gain = 513.730
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:43 ; elapsed = 00:00:56 . Memory (MB): peak = 725.242 ; gain = 513.730
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:43 ; elapsed = 00:00:56 . Memory (MB): peak = 725.242 ; gain = 513.730
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:43 ; elapsed = 00:00:56 . Memory (MB): peak = 725.242 ; gain = 513.730
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:43 ; elapsed = 00:00:56 . Memory (MB): peak = 725.242 ; gain = 513.730
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT1 |     2|
+|2     |LUT2 |    15|
+|3     |LUT3 |     7|
+|4     |LUT4 |    80|
+|5     |LUT5 |    12|
+|6     |LUT6 |    58|
+|7     |FDRE |   130|
++------+-----+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:43 ; elapsed = 00:00:56 . Memory (MB): peak = 725.242 ; gain = 513.730
+synth_design: Time (s): cpu = 00:00:38 ; elapsed = 00:00:48 . Memory (MB): peak = 725.242 ; gain = 443.047

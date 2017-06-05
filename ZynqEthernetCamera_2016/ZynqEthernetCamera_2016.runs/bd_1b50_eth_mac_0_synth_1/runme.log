@@ -1,0 +1,175 @@
+
+*** Running vivado
+    with args -log bd_1b50_eth_mac_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source bd_1b50_eth_mac_0.tcl
+
+
+****** Vivado v2016.3 (64-bit)
+  **** SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+  **** IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source bd_1b50_eth_mac_0.tcl -notrace
+config_ip_cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:18 . Memory (MB): peak = 281.730 ; gain = 4.879
+Starting RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:01:28 . Memory (MB): peak = 359.590 ; gain = 148.582
+INFO: [Synth 8-638] synthesizing module 'bd_1b50_eth_mac_0' [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ip/Ethernet_axi_ethernet_0_0/bd_0/ip/ip_1/synth/bd_1b50_eth_mac_0.vhd:175]
+INFO: [Synth 8-638] synthesizing module 'bd_1b50_eth_mac_0_support' [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ip/Ethernet_axi_ethernet_0_0/bd_0/ip/ip_1/synth/bd_1b50_eth_mac_0_support.vhd:172]
+INFO: [Synth 8-638] synthesizing module 'bd_1b50_eth_mac_0_support_clocking' [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ip/Ethernet_axi_ethernet_0_0/bd_0/ip/ip_1/synth/bd_1b50_eth_mac_0_support_clocking.vhd:82]
+INFO: [Synth 8-256] done synthesizing module 'bd_1b50_eth_mac_0_support_clocking' (1#1) [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ip/Ethernet_axi_ethernet_0_0/bd_0/ip/ip_1/synth/bd_1b50_eth_mac_0_support_clocking.vhd:82]
+INFO: [Synth 8-638] synthesizing module 'bd_1b50_eth_mac_0_support_resets' [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ip/Ethernet_axi_ethernet_0_0/bd_0/ip/ip_1/synth/bd_1b50_eth_mac_0_support_resets.vhd:77]
+INFO: [Synth 8-638] synthesizing module 'bd_1b50_eth_mac_0_block_reset_sync' [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ip/Ethernet_axi_ethernet_0_0/bd_0/ip/ip_1/synth/common/bd_1b50_eth_mac_0_block_reset_sync.vhd:89]
+INFO: [Synth 8-256] done synthesizing module 'bd_1b50_eth_mac_0_block_reset_sync' (2#1) [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ip/Ethernet_axi_ethernet_0_0/bd_0/ip/ip_1/synth/common/bd_1b50_eth_mac_0_block_reset_sync.vhd:89]
+INFO: [Synth 8-638] synthesizing module 'bd_1b50_eth_mac_0_block_sync_block' [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ip/Ethernet_axi_ethernet_0_0/bd_0/ip/ip_1/synth/common/bd_1b50_eth_mac_0_block_sync_block.vhd:84]
+INFO: [Synth 8-256] done synthesizing module 'bd_1b50_eth_mac_0_block_sync_block' (3#1) [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ip/Ethernet_axi_ethernet_0_0/bd_0/ip/ip_1/synth/common/bd_1b50_eth_mac_0_block_sync_block.vhd:84]
+INFO: [Synth 8-256] done synthesizing module 'bd_1b50_eth_mac_0_support_resets' (4#1) [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ip/Ethernet_axi_ethernet_0_0/bd_0/ip/ip_1/synth/bd_1b50_eth_mac_0_support_resets.vhd:77]
+INFO: [Synth 8-638] synthesizing module 'bd_1b50_eth_mac_0_block' [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ip/Ethernet_axi_ethernet_0_0/bd_0/ip/ip_1/synth/bd_1b50_eth_mac_0_block.vhd:230]
+INFO: [Synth 8-638] synthesizing module 'bd_1b50_eth_mac_0_clk_en_gen' [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ip/Ethernet_axi_ethernet_0_0/bd_0/ip/ip_1/synth/bd_1b50_eth_mac_0_clk_en_gen.vhd:85]
+INFO: [Synth 8-256] done synthesizing module 'bd_1b50_eth_mac_0_clk_en_gen' (5#1) [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ip/Ethernet_axi_ethernet_0_0/bd_0/ip/ip_1/synth/bd_1b50_eth_mac_0_clk_en_gen.vhd:85]
+INFO: [Synth 8-638] synthesizing module 'bd_1b50_eth_mac_0_rgmii_v2_0_if' [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ip/Ethernet_axi_ethernet_0_0/bd_0/ip/ip_1/synth/physical/bd_1b50_eth_mac_0_rgmii_v2_0_if.vhd:121]
+INFO: [Synth 8-256] done synthesizing module 'bd_1b50_eth_mac_0_rgmii_v2_0_if' (6#1) [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ip/Ethernet_axi_ethernet_0_0/bd_0/ip/ip_1/synth/physical/bd_1b50_eth_mac_0_rgmii_v2_0_if.vhd:121]
+INFO: [Synth 8-638] synthesizing module 'bd_1b50_eth_mac_0_axi4_lite_ipif_wrapper' [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ip/Ethernet_axi_ethernet_0_0/bd_0/ip/ip_1/synth/axi_ipif/bd_1b50_eth_mac_0_axi4_lite_ipif_wrapper.vhd:107]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif' [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2948]
+INFO: [Synth 8-638] synthesizing module 'slave_attachment' [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2341]
+INFO: [Synth 8-638] synthesizing module 'address_decoder' [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1775]
+INFO: [Synth 8-256] done synthesizing module 'address_decoder' (7#1) [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1775]
+INFO: [Synth 8-256] done synthesizing module 'slave_attachment' (8#1) [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2341]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif' (9#1) [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2948]
+INFO: [Synth 8-256] done synthesizing module 'bd_1b50_eth_mac_0_axi4_lite_ipif_wrapper' (10#1) [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ip/Ethernet_axi_ethernet_0_0/bd_0/ip/ip_1/synth/axi_ipif/bd_1b50_eth_mac_0_axi4_lite_ipif_wrapper.vhd:107]
+INFO: [Synth 8-638] synthesizing module 'bd_1b50_eth_mac_0_vector_decode' [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ip/Ethernet_axi_ethernet_0_0/bd_0/ip/ip_1/synth/statistics/bd_1b50_eth_mac_0_vector_decode.vhd:95]
+INFO: [Synth 8-256] done synthesizing module 'bd_1b50_eth_mac_0_vector_decode' (11#1) [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ip/Ethernet_axi_ethernet_0_0/bd_0/ip/ip_1/synth/statistics/bd_1b50_eth_mac_0_vector_decode.vhd:95]
+INFO: [Synth 8-638] synthesizing module 'LUT4' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-256] done synthesizing module 'LUT4' (27#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized0' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-256] done synthesizing module 'LUT4__parameterized0' (27#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized1' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-256] done synthesizing module 'LUT4__parameterized1' (27#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized2' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-256] done synthesizing module 'LUT4__parameterized2' (27#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized3' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-256] done synthesizing module 'LUT4__parameterized3' (27#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized4' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-256] done synthesizing module 'LUT4__parameterized4' (27#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized5' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-256] done synthesizing module 'LUT4__parameterized5' (27#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized6' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-256] done synthesizing module 'LUT4__parameterized6' (27#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-638] synthesizing module 'RAM64X1D' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-256] done synthesizing module 'RAM64X1D' (43#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-638] synthesizing module 'RAM64X1D__parameterized0' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-256] done synthesizing module 'RAM64X1D__parameterized0' (43#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-638] synthesizing module 'RAM64X1D__parameterized1' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-256] done synthesizing module 'RAM64X1D__parameterized1' (43#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-638] synthesizing module 'RAM64X1D__parameterized2' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-256] done synthesizing module 'RAM64X1D__parameterized2' (43#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-638] synthesizing module 'RAM64X1D__parameterized3' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-256] done synthesizing module 'RAM64X1D__parameterized3' (43#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-638] synthesizing module 'RAM64X1D__parameterized4' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-256] done synthesizing module 'RAM64X1D__parameterized4' (43#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-638] synthesizing module 'RAM64X1D__parameterized5' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-256] done synthesizing module 'RAM64X1D__parameterized5' (43#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-638] synthesizing module 'RAM64X1D__parameterized6' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-256] done synthesizing module 'RAM64X1D__parameterized6' (43#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-638] synthesizing module 'RAM64X1D__parameterized7' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-256] done synthesizing module 'RAM64X1D__parameterized7' (43#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-638] synthesizing module 'RAM64X1D__parameterized8' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-256] done synthesizing module 'RAM64X1D__parameterized8' (43#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-638] synthesizing module 'RAM64X1D__parameterized9' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-256] done synthesizing module 'RAM64X1D__parameterized9' (43#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-638] synthesizing module 'RAM64X1D__parameterized10' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-256] done synthesizing module 'RAM64X1D__parameterized10' (43#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-638] synthesizing module 'RAM64X1D__parameterized11' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-256] done synthesizing module 'RAM64X1D__parameterized11' (43#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-638] synthesizing module 'RAM64X1D__parameterized12' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-256] done synthesizing module 'RAM64X1D__parameterized12' (43#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-638] synthesizing module 'RAM64X1D__parameterized13' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-256] done synthesizing module 'RAM64X1D__parameterized13' (43#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-638] synthesizing module 'RAM64X1D__parameterized14' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-256] done synthesizing module 'RAM64X1D__parameterized14' (44#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-638] synthesizing module 'RAM64X1D__parameterized15' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-256] done synthesizing module 'RAM64X1D__parameterized15' (44#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-638] synthesizing module 'RAM64X1D__parameterized16' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-256] done synthesizing module 'RAM64X1D__parameterized16' (44#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-638] synthesizing module 'RAM64X1D__parameterized17' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-256] done synthesizing module 'RAM64X1D__parameterized17' (44#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-638] synthesizing module 'RAM64X1D__parameterized18' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-256] done synthesizing module 'RAM64X1D__parameterized18' (44#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-638] synthesizing module 'RAM64X1D__parameterized19' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-256] done synthesizing module 'RAM64X1D__parameterized19' (44#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-638] synthesizing module 'RAM64X1D__parameterized20' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-256] done synthesizing module 'RAM64X1D__parameterized20' (44#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-638] synthesizing module 'RAM64X1D__parameterized21' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-256] done synthesizing module 'RAM64X1D__parameterized21' (44#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-638] synthesizing module 'LUT3' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3' (45#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'LUT3__parameterized0' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3__parameterized0' (45#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'LUT3__parameterized1' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3__parameterized1' (45#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'LUT3__parameterized2' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3__parameterized2' (45#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'LUT3__parameterized3' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3__parameterized3' (45#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'LUT3__parameterized4' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3__parameterized4' (45#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'LUT3__parameterized5' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3__parameterized5' (45#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'LUT3__parameterized6' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3__parameterized6' (45#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'SRL16E' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:43328]
+INFO: [Synth 8-256] done synthesizing module 'SRL16E' (46#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:43328]
+INFO: [Synth 8-256] done synthesizing module 'bd_1b50_eth_mac_0_block' (50#1) [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ip/Ethernet_axi_ethernet_0_0/bd_0/ip/ip_1/synth/bd_1b50_eth_mac_0_block.vhd:230]
+INFO: [Synth 8-256] done synthesizing module 'bd_1b50_eth_mac_0_support' (51#1) [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ip/Ethernet_axi_ethernet_0_0/bd_0/ip/ip_1/synth/bd_1b50_eth_mac_0_support.vhd:172]
+INFO: [Synth 8-256] done synthesizing module 'bd_1b50_eth_mac_0' (52#1) [c:/Users/Tmicro 2/Desktop/JcTFG/ZynqEthernetCamera_2016/ZynqEthernetCamera_2016.srcs/sources_1/bd/Ethernet/ip/Ethernet_axi_ethernet_0_0/bd_0/ip/ip_1/synth/bd_1b50_eth_mac_0.vhd:175]
+Finished RTL Elaboration : Time (s): cpu = 00:00:15 ; elapsed = 00:01:37 . Memory (MB): peak = 454.621 ; gain = 243.613
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:16 ; elapsed = 00:01:39 . Memory (MB): peak = 454.621 ; gain = 243.613
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.375 . Memory (MB): peak = 742.707 ; gain = 0.000
+Finished Constraint Validation : Time (s): cpu = 00:00:28 ; elapsed = 00:02:25 . Memory (MB): peak = 742.707 ; gain = 531.699
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:28 ; elapsed = 00:02:25 . Memory (MB): peak = 742.707 ; gain = 531.699
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:29 ; elapsed = 00:02:26 . Memory (MB): peak = 742.707 ; gain = 531.699
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:33 ; elapsed = 00:02:31 . Memory (MB): peak = 742.707 ; gain = 531.699
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:42 ; elapsed = 00:02:41 . Memory (MB): peak = 742.707 ; gain = 531.699
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:53 ; elapsed = 00:02:57 . Memory (MB): peak = 742.707 ; gain = 531.699
+Finished Timing Optimization : Time (s): cpu = 00:00:54 ; elapsed = 00:02:58 . Memory (MB): peak = 742.707 ; gain = 531.699
+Finished Technology Mapping : Time (s): cpu = 00:00:56 ; elapsed = 00:03:01 . Memory (MB): peak = 742.707 ; gain = 531.699
+Finished IO Insertion : Time (s): cpu = 00:00:58 ; elapsed = 00:03:03 . Memory (MB): peak = 742.707 ; gain = 531.699
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:58 ; elapsed = 00:03:03 . Memory (MB): peak = 742.707 ; gain = 531.699
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:58 ; elapsed = 00:03:03 . Memory (MB): peak = 742.707 ; gain = 531.699
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:58 ; elapsed = 00:03:03 . Memory (MB): peak = 742.707 ; gain = 531.699
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:58 ; elapsed = 00:03:04 . Memory (MB): peak = 742.707 ; gain = 531.699
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:58 ; elapsed = 00:03:04 . Memory (MB): peak = 742.707 ; gain = 531.699
+
+Report Cell Usage: 
++------+-----------+------+
+|      |Cell       |Count |
++------+-----------+------+
+|1     |BUFGCE     |     2|
+|2     |BUFIO      |     1|
+|3     |BUFR       |     1|
+|4     |CARRY4     |    33|
+|5     |IDDR       |     5|
+|6     |IDELAYCTRL |     1|
+|7     |IDELAYE2   |     5|
+|8     |LUT1       |   120|
+|9     |LUT2       |   335|
+|10    |LUT3       |   242|
+|11    |LUT4       |   272|
+|12    |LUT5       |   341|
+|13    |LUT6       |   529|
+|14    |MMCME2_ADV |     1|
+|15    |MUXCY      |    70|
+|16    |MUXF7      |    13|
+|17    |MUXF8      |     2|
+|18    |ODDR       |     6|
+|19    |RAM64X1D   |   160|
+|20    |SRL16E     |    27|
+|21    |XORCY      |    70|
+|22    |FDCE       |   108|
+|23    |FDPE       |    30|
+|24    |FDRE       |  2796|
+|25    |FDSE       |    80|
+|26    |IBUF       |     6|
+|27    |OBUF       |     6|
++------+-----------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:58 ; elapsed = 00:03:04 . Memory (MB): peak = 742.707 ; gain = 531.699
+get_clocks: Time (s): cpu = 00:00:03 ; elapsed = 00:00:16 . Memory (MB): peak = 1161.527 ; gain = 418.820
+synth_design: Time (s): cpu = 00:00:59 ; elapsed = 00:02:15 . Memory (MB): peak = 1161.535 ; gain = 879.805
