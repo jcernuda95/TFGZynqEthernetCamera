@@ -1,0 +1,6 @@
+19:34:33 INFO  : Registering command handlers for SDK TCF services
+19:34:33 INFO  : Launching XSCT server: xsct.bat -interactive C:\JcTFG\Ethernet\Ethernet.sdk\temp_xsdb_launch_script.tcl
+19:34:35 INFO  : XSCT server has started successfully.
+19:34:35 INFO  : Successfully done setting XSCT server connection channel  
+19:34:36 INFO  : Successfully done setting SDK workspace  
+19:34:36 INFO  : Processing command line option -hwspec C:/JcTFG/Ethernet/Ethernet.sdk/Ethernet_wrapper.hdf.
